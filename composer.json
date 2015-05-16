@@ -1,0 +1,24 @@
+{
+  "name": "infomaniac/doctrinaire",
+  "description": "Doctrine2 integration for Laravel 5.x",
+  "version": "0.1",
+  "keywords": ["doctrine", "doctrine 2", "doctrine2", "laravel", "laravel5", "orm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Danny Kopping",
+      "email": "dannykopping@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "illuminate/support": "5.0.x",
+    "doctrine/orm": "2.5.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "Infomaniac\\Doctrinaire\\": "src/"
+    }
+  },
+  "prefer-stable": true
+}
